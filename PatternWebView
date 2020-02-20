@@ -1,0 +1,8 @@
+<p>
+Il fix in questi quattro casi ha molti punti in comune.
+A parte il primo che cambia solo la condizione di un if, gli altri tre salvano tutti la posizione corrente della scroll 
+e il 2,4 aggiungono l’override di public void onSaveInstanceState(@NonNull Bundle outState) e utilizzano un metodo
+public 
+void onPageFinished(WebView view, String url)
+per sapere quando è finita la pagina. I casi 3,4 hanno un pezzo di codice che è uguale:
+</p>
